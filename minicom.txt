@@ -1,0 +1,22 @@
+install
+pacman -Ss minicom
+sudo pacman -S minicom
+
+config
+sudo minicom -s
+
+usage
+sudo minicom
+
+quit minicom
+first:Ctrl + A
+second:Q
+third:YES
+
+export serial log
+first:Ctrl+A
+second:Z
+third:L capture ON/OFF default name:minicom.capture
+
+device is locked
+sudo rm /var/lock/LCK...ttyUSB0
