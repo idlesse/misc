@@ -1,0 +1,9 @@
+1 为了让pacman能够检索到yaourt，在/etc/pacman.conf增加如下内容
+
+[archlinuxcn]
+SigLevel = Never
+Server = http://repo.archlinuxcn.org/$arch
+
+2 使用pacman -Syu更新源，安装yaourt
+3 使用yaourt -S xlslib安装xls lib库
+4 先qmake，在make，编译new app
